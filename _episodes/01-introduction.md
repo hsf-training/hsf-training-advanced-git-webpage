@@ -9,7 +9,9 @@ objectives:
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
-FIXME
+
+Simply head over to [learngitbranching.js.org](https://learngitbranching.js.org/) for now.
+
 
 {% include links.md %}
 
