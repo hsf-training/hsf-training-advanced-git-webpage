@@ -14,4 +14,3 @@ Simply head over to [learngitbranching.js.org](https://learngitbranching.js.org/
 
 
 {% include links.md %}
-
