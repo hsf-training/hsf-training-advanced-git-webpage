@@ -38,7 +38,7 @@ jobs:
           ruby-version: '2.7.1'
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.x'
 
@@ -112,7 +112,7 @@ jobs:
 
       - name: Cache R packages
         if: runner.os != 'Windows' && steps.check-rmd.outputs.count != 0
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ${{ env.R_LIBS_USER }}
           key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
