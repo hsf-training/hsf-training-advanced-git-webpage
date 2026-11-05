@@ -1,0 +1,2 @@
+# Liquid paths ({{site.baseurl}}/...) are resolved by Jekyll, not by lychee.
+%7B%7B\s*site\.baseurl\s*%7D%7D
